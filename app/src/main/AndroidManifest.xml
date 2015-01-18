@@ -35,4 +35,8 @@
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
+    <!--To make payments and access the user's Venmo balance -->
+    <uses-permission android:name="android.permission.MAKE_PAYMENTS" />
+    <uses-permission android:name="android.permission.ACCESS_BALANCE" />
+
 </manifest>
